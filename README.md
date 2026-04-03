@@ -2,6 +2,10 @@
 
 A clean TypeScript backend for a finance dashboard system with:
 
+This project is a backend application developed using TypeScript for managing financial data and user access control in a dashboard system. It focuses on building a clean, scalable, and well-structured backend with proper role-based access and data handling.
+
+The application supports user management, financial record operations, and dashboard analytics, while ensuring that each user can only access data based on their role
+
 - user and role management
 - financial records CRUD
 - dashboard summary analytics
@@ -18,6 +22,8 @@ A clean TypeScript backend for a finance dashboard system with:
 - Supertest + Node test runner for API checks
 
 ## Why This Approach
+
+The main goal of this project was to keep the backend simple, clean, and easy to understand while still following good design practices.
 
 I chose Express + TypeScript + SQLite because it keeps the assignment focused on backend design rather than framework ceremony.
 
